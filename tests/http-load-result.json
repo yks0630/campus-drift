@@ -1,0 +1,12 @@
+{
+  "players": 100,
+  "race_seconds": 60,
+  "http_requests": 12202,
+  "batches": 120,
+  "errors": 0,
+  "first_errors": [],
+  "latency_p50_ms": 206.3,
+  "latency_p95_ms": 352.2,
+  "winner_distance_m": 1571.42,
+  "scope": "Local built Cloudflare Worker + local D1; excludes public network and real devices"
+}
