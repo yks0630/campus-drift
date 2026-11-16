@@ -1,8 +1,9 @@
 import {env} from 'cloudflare:workers';
-import {gameAction,GameError,roomSnapshot} from '@/lib/race-service';
+import {gameAction,GameError,roomSnapshot,roundResult} from '@/lib/race-service';
 const headers={'Cache-Control':'no-store'};
 export async function GET(request:Request){
-  try{return Response.json(await roomSnapshot(env.DB!,new URL(request.url).searchParams.get('code')||''),{headers});}
+  try{const query=new URL(request.url).searchParams,code=query.get('code')||'';
+    return Response.json(query.has('round')?await roundResult(env.DB!,code,Number(query.get('round'))):await roomSnapshot(env.DB!,code),{headers});}
   catch(e){return fail(e);}
 }
 export async function POST(request:Request){

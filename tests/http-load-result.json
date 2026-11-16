@@ -1,12 +1,23 @@
 {
   "players": 100,
   "race_seconds": 60,
-  "http_requests": 12202,
-  "batches": 120,
+  "http_requests": 11624,
+  "batches": 108,
   "errors": 0,
   "first_errors": [],
-  "latency_p50_ms": 206.3,
-  "latency_p95_ms": 352.2,
-  "winner_distance_m": 1571.42,
+  "latency_p50_ms": 278.9,
+  "latency_p95_ms": 505.8,
+  "winner_distance_m": 1423.24,
+  "readiness_version_checked": true,
+  "archived_players_after_reset": 100,
+  "players_resumed_in_next_round": 100,
+  "next_round_resume_batches": 5,
+  "transient_resume_retries": 21,
+  "first_resume_retry_reasons": [
+    {
+      "status": 503,
+      "body": "Your worker restarted mid-request. Please try sending the request again. Only GET or HEAD requests are retried automatically."
+    }
+  ],
   "scope": "Local built Cloudflare Worker + local D1; excludes public network and real devices"
 }

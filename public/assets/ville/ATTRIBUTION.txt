@@ -1,0 +1,6 @@
+Racing UI Kit
+UI assets by Ville Seppänen — https://www.villeseppanen.com
+Source: https://villesep.itch.io/racing-ui-kit
+License: Creative Commons Attribution 4.0 (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Adaptation: original PSD layers exported as PNG; labels translated to Chinese; layout resized for portrait phones and a landscape event display.

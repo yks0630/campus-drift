@@ -1,0 +1,2087 @@
+[
+  {
+    "file": "00-00.png",
+    "group": "CHECK GREEN",
+    "layer": "Layer 111",
+    "bbox": [
+      1867,
+      330,
+      1949,
+      401
+    ],
+    "size": [
+      82,
+      71
+    ]
+  },
+  {
+    "file": "01-00.png",
+    "group": "RED X",
+    "layer": "Layer 121",
+    "bbox": [
+      1977,
+      333,
+      2047,
+      400
+    ],
+    "size": [
+      70,
+      67
+    ]
+  },
+  {
+    "file": "02-00.png",
+    "group": "CLOSE CANCEL",
+    "layer": "Layer 4",
+    "bbox": [
+      2397,
+      462,
+      2519,
+      590
+    ],
+    "size": [
+      122,
+      128
+    ]
+  },
+  {
+    "file": "02-01.png",
+    "group": "CLOSE CANCEL",
+    "layer": "Layer 5",
+    "bbox": [
+      2530,
+      476,
+      2619,
+      565
+    ],
+    "size": [
+      89,
+      89
+    ]
+  },
+  {
+    "file": "03-00.png",
+    "group": "INFO",
+    "layer": "Layer 6",
+    "bbox": [
+      1770,
+      332,
+      1837,
+      402
+    ],
+    "size": [
+      67,
+      70
+    ]
+  },
+  {
+    "file": "04-00.png",
+    "group": "ARROW",
+    "layer": "Layer 9",
+    "bbox": [
+      1847,
+      190,
+      1909,
+      257
+    ],
+    "size": [
+      62,
+      67
+    ]
+  },
+  {
+    "file": "04-01.png",
+    "group": "ARROW",
+    "layer": "Layer 10",
+    "bbox": [
+      1921,
+      191,
+      1986,
+      255
+    ],
+    "size": [
+      65,
+      64
+    ]
+  },
+  {
+    "file": "04-02.png",
+    "group": "ARROW",
+    "layer": "Layer 11",
+    "bbox": [
+      2002,
+      190,
+      2064,
+      258
+    ],
+    "size": [
+      62,
+      68
+    ]
+  },
+  {
+    "file": "04-03.png",
+    "group": "ARROW",
+    "layer": "Layer 12",
+    "bbox": [
+      2078,
+      192,
+      2143,
+      256
+    ],
+    "size": [
+      65,
+      64
+    ]
+  },
+  {
+    "file": "05-00.png",
+    "group": "BUTTON LABEL",
+    "layer": "Layer 110",
+    "bbox": [
+      1463,
+      333,
+      1538,
+      411
+    ],
+    "size": [
+      75,
+      78
+    ]
+  },
+  {
+    "file": "05-01.png",
+    "group": "BUTTON LABEL",
+    "layer": "Layer 13",
+    "bbox": [
+      1383,
+      333,
+      1458,
+      411
+    ],
+    "size": [
+      75,
+      78
+    ]
+  },
+  {
+    "file": "05-02.png",
+    "group": "BUTTON LABEL",
+    "layer": "Layer 15",
+    "bbox": [
+      1543,
+      341,
+      1602,
+      402
+    ],
+    "size": [
+      59,
+      61
+    ]
+  },
+  {
+    "file": "05-03.png",
+    "group": "BUTTON LABEL",
+    "layer": "Layer 16",
+    "bbox": [
+      1612,
+      341,
+      1670,
+      402
+    ],
+    "size": [
+      58,
+      61
+    ]
+  },
+  {
+    "file": "05-04.png",
+    "group": "BUTTON LABEL",
+    "layer": "Layer 59",
+    "bbox": [
+      1681,
+      345,
+      1733,
+      395
+    ],
+    "size": [
+      52,
+      50
+    ]
+  },
+  {
+    "file": "06-00.png",
+    "group": "LABEL",
+    "layer": "Layer 18",
+    "bbox": [
+      2497,
+      650,
+      2626,
+      712
+    ],
+    "size": [
+      129,
+      62
+    ]
+  },
+  {
+    "file": "06-01.png",
+    "group": "LABEL",
+    "layer": "Layer 19",
+    "bbox": [
+      2664,
+      650,
+      2806,
+      712
+    ],
+    "size": [
+      142,
+      62
+    ]
+  },
+  {
+    "file": "07-00.png",
+    "group": "LOCK",
+    "layer": "Layer 20",
+    "bbox": [
+      2656,
+      490,
+      2707,
+      560
+    ],
+    "size": [
+      51,
+      70
+    ]
+  },
+  {
+    "file": "07-01.png",
+    "group": "LOCK",
+    "layer": "Layer 21",
+    "bbox": [
+      2727,
+      490,
+      2778,
+      560
+    ],
+    "size": [
+      51,
+      70
+    ]
+  },
+  {
+    "file": "07-02.png",
+    "group": "LOCK",
+    "layer": "Layer 117",
+    "bbox": [
+      2789,
+      490,
+      2840,
+      561
+    ],
+    "size": [
+      51,
+      71
+    ]
+  },
+  {
+    "file": "08-00.png",
+    "group": "ICONS",
+    "layer": "Layer 114",
+    "bbox": [
+      1378,
+      486,
+      1467,
+      574
+    ],
+    "size": [
+      89,
+      88
+    ]
+  },
+  {
+    "file": "08-01.png",
+    "group": "ICONS",
+    "layer": "Layer 114 copy",
+    "bbox": [
+      1479,
+      486,
+      1568,
+      574
+    ],
+    "size": [
+      89,
+      88
+    ]
+  },
+  {
+    "file": "08-03.png",
+    "group": "ICONS",
+    "layer": "Layer 114 copy 2",
+    "bbox": [
+      1578,
+      486,
+      1667,
+      574
+    ],
+    "size": [
+      89,
+      88
+    ]
+  },
+  {
+    "file": "08-05.png",
+    "group": "ICONS",
+    "layer": "Layer 27",
+    "bbox": [
+      1705,
+      479,
+      1792,
+      567
+    ],
+    "size": [
+      87,
+      88
+    ]
+  },
+  {
+    "file": "08-06.png",
+    "group": "ICONS",
+    "layer": "Layer 28",
+    "bbox": [
+      1815,
+      484,
+      1895,
+      570
+    ],
+    "size": [
+      80,
+      86
+    ]
+  },
+  {
+    "file": "08-07.png",
+    "group": "ICONS",
+    "layer": "Layer 28 copy",
+    "bbox": [
+      1912,
+      484,
+      1992,
+      570
+    ],
+    "size": [
+      80,
+      86
+    ]
+  },
+  {
+    "file": "08-09.png",
+    "group": "ICONS",
+    "layer": "Layer 28 copy 2",
+    "bbox": [
+      2007,
+      485,
+      2087,
+      571
+    ],
+    "size": [
+      80,
+      86
+    ]
+  },
+  {
+    "file": "09-00.png",
+    "group": "BUTTON",
+    "layer": "Layer 29",
+    "bbox": [
+      1491,
+      950,
+      1602,
+      1062
+    ],
+    "size": [
+      111,
+      112
+    ]
+  },
+  {
+    "file": "09-01.png",
+    "group": "BUTTON",
+    "layer": "Layer 30",
+    "bbox": [
+      1617,
+      950,
+      1727,
+      1062
+    ],
+    "size": [
+      110,
+      112
+    ]
+  },
+  {
+    "file": "09-02.png",
+    "group": "BUTTON",
+    "layer": "Layer 31",
+    "bbox": [
+      1744,
+      950,
+      1855,
+      1062
+    ],
+    "size": [
+      111,
+      112
+    ]
+  },
+  {
+    "file": "09-03.png",
+    "group": "BUTTON",
+    "layer": "Layer 32",
+    "bbox": [
+      1871,
+      950,
+      1982,
+      1062
+    ],
+    "size": [
+      111,
+      112
+    ]
+  },
+  {
+    "file": "09-04.png",
+    "group": "BUTTON",
+    "layer": "Layer 33",
+    "bbox": [
+      2008,
+      954,
+      2101,
+      1054
+    ],
+    "size": [
+      93,
+      100
+    ]
+  },
+  {
+    "file": "09-05.png",
+    "group": "BUTTON",
+    "layer": "Layer 34",
+    "bbox": [
+      2118,
+      954,
+      2212,
+      1054
+    ],
+    "size": [
+      94,
+      100
+    ]
+  },
+  {
+    "file": "09-06.png",
+    "group": "BUTTON",
+    "layer": "Layer 128 copy",
+    "bbox": [
+      2238,
+      952,
+      2351,
+      1061
+    ],
+    "size": [
+      113,
+      109
+    ]
+  },
+  {
+    "file": "10-00.png",
+    "group": "BADGES",
+    "layer": "Layer 113",
+    "bbox": [
+      1493,
+      179,
+      1575,
+      260
+    ],
+    "size": [
+      82,
+      81
+    ]
+  },
+  {
+    "file": "10-01.png",
+    "group": "BADGES",
+    "layer": "Layer 35",
+    "bbox": [
+      1380,
+      180,
+      1475,
+      270
+    ],
+    "size": [
+      95,
+      90
+    ]
+  },
+  {
+    "file": "10-02.png",
+    "group": "BADGES",
+    "layer": "Layer 37",
+    "bbox": [
+      1591,
+      179,
+      1669,
+      261
+    ],
+    "size": [
+      78,
+      82
+    ]
+  },
+  {
+    "file": "10-03.png",
+    "group": "BADGES",
+    "layer": "Layer 38",
+    "bbox": [
+      1689,
+      179,
+      1771,
+      260
+    ],
+    "size": [
+      82,
+      81
+    ]
+  },
+  {
+    "file": "11-00.png",
+    "group": "RADIO",
+    "layer": "Layer 39",
+    "bbox": [
+      2564,
+      192,
+      2618,
+      250
+    ],
+    "size": [
+      54,
+      58
+    ]
+  },
+  {
+    "file": "11-01.png",
+    "group": "RADIO",
+    "layer": "Layer 40",
+    "bbox": [
+      2631,
+      192,
+      2685,
+      250
+    ],
+    "size": [
+      54,
+      58
+    ]
+  },
+  {
+    "file": "11-02.png",
+    "group": "RADIO",
+    "layer": "Layer 41",
+    "bbox": [
+      2697,
+      192,
+      2751,
+      250
+    ],
+    "size": [
+      54,
+      58
+    ]
+  },
+  {
+    "file": "11-03.png",
+    "group": "RADIO",
+    "layer": "Layer 42",
+    "bbox": [
+      2763,
+      192,
+      2817,
+      250
+    ],
+    "size": [
+      54,
+      58
+    ]
+  },
+  {
+    "file": "12-00.png",
+    "group": "RARITY LABEL",
+    "layer": "Layer 43",
+    "bbox": [
+      1894,
+      650,
+      2101,
+      712
+    ],
+    "size": [
+      207,
+      62
+    ]
+  },
+  {
+    "file": "12-01.png",
+    "group": "RARITY LABEL",
+    "layer": "Layer 44",
+    "bbox": [
+      2124,
+      650,
+      2331,
+      712
+    ],
+    "size": [
+      207,
+      62
+    ]
+  },
+  {
+    "file": "12-02.png",
+    "group": "RARITY LABEL",
+    "layer": "Layer 45",
+    "bbox": [
+      2355,
+      650,
+      2465,
+      712
+    ],
+    "size": [
+      110,
+      62
+    ]
+  },
+  {
+    "file": "12-03.png",
+    "group": "RARITY LABEL",
+    "layer": "Layer 46",
+    "bbox": [
+      1373,
+      650,
+      1500,
+      712
+    ],
+    "size": [
+      127,
+      62
+    ]
+  },
+  {
+    "file": "12-04.png",
+    "group": "RARITY LABEL",
+    "layer": "Layer 47",
+    "bbox": [
+      1514,
+      650,
+      1708,
+      712
+    ],
+    "size": [
+      194,
+      62
+    ]
+  },
+  {
+    "file": "12-05.png",
+    "group": "RARITY LABEL",
+    "layer": "Layer 48",
+    "bbox": [
+      1720,
+      649,
+      1877,
+      712
+    ],
+    "size": [
+      157,
+      63
+    ]
+  },
+  {
+    "file": "13-00.png",
+    "group": "WINDOW TABS",
+    "layer": "Layer 49",
+    "bbox": [
+      1485,
+      1449,
+      1852,
+      1533
+    ],
+    "size": [
+      367,
+      84
+    ]
+  },
+  {
+    "file": "13-01.png",
+    "group": "WINDOW TABS",
+    "layer": "Layer 50",
+    "bbox": [
+      1882,
+      1449,
+      2248,
+      1533
+    ],
+    "size": [
+      366,
+      84
+    ]
+  },
+  {
+    "file": "14-00.png",
+    "group": "WINDOW BG",
+    "layer": "Layer 123",
+    "bbox": [
+      1482,
+      1301,
+      1849,
+      1402
+    ],
+    "size": [
+      367,
+      101
+    ]
+  },
+  {
+    "file": "14-01.png",
+    "group": "WINDOW BG",
+    "layer": "Layer 135",
+    "bbox": [
+      2707,
+      1892,
+      2923,
+      2655
+    ],
+    "size": [
+      216,
+      763
+    ]
+  },
+  {
+    "file": "14-02.png",
+    "group": "WINDOW BG",
+    "layer": "Layer 128",
+    "bbox": [
+      1891,
+      1301,
+      2257,
+      1402
+    ],
+    "size": [
+      366,
+      101
+    ]
+  },
+  {
+    "file": "15-00.png",
+    "group": "BUTTONS",
+    "layer": "Layer 51",
+    "bbox": [
+      1485,
+      1565,
+      1852,
+      1673
+    ],
+    "size": [
+      367,
+      108
+    ]
+  },
+  {
+    "file": "15-01.png",
+    "group": "BUTTONS",
+    "layer": "Layer 52",
+    "bbox": [
+      1882,
+      1565,
+      2248,
+      1673
+    ],
+    "size": [
+      366,
+      108
+    ]
+  },
+  {
+    "file": "16-00.png",
+    "group": "STOP ICON",
+    "layer": "Layer 118",
+    "bbox": [
+      2122,
+      476,
+      2223,
+      582
+    ],
+    "size": [
+      101,
+      106
+    ]
+  },
+  {
+    "file": "17-00.png",
+    "group": "INFO",
+    "layer": "Layer 54",
+    "bbox": [
+      2249,
+      498,
+      2308,
+      558
+    ],
+    "size": [
+      59,
+      60
+    ]
+  },
+  {
+    "file": "18-00.png",
+    "group": "TIMER",
+    "layer": "Layer 55",
+    "bbox": [
+      2337,
+      503,
+      2378,
+      553
+    ],
+    "size": [
+      41,
+      50
+    ]
+  },
+  {
+    "file": "19-00.png",
+    "group": "WINDOWS",
+    "layer": "Layer 56",
+    "bbox": [
+      916,
+      1298,
+      1342,
+      1406
+    ],
+    "size": [
+      426,
+      108
+    ]
+  },
+  {
+    "file": "19-01.png",
+    "group": "WINDOWS",
+    "layer": "Layer 57",
+    "bbox": [
+      442,
+      1300,
+      868,
+      1406
+    ],
+    "size": [
+      426,
+      106
+    ]
+  },
+  {
+    "file": "20-00.png",
+    "group": "BUTTONS",
+    "layer": "Layer 126",
+    "bbox": [
+      1539,
+      1138,
+      1795,
+      1247
+    ],
+    "size": [
+      256,
+      109
+    ]
+  },
+  {
+    "file": "20-01.png",
+    "group": "BUTTONS",
+    "layer": "Layer 127",
+    "bbox": [
+      1822,
+      1139,
+      2078,
+      1246
+    ],
+    "size": [
+      256,
+      107
+    ]
+  },
+  {
+    "file": "21-00.png",
+    "group": "SWITCHES",
+    "layer": "Layer 62",
+    "bbox": [
+      1861,
+      789,
+      2098,
+      885
+    ],
+    "size": [
+      237,
+      96
+    ]
+  },
+  {
+    "file": "21-01.png",
+    "group": "SWITCHES",
+    "layer": "Layer 63",
+    "bbox": [
+      2114,
+      789,
+      2351,
+      885
+    ],
+    "size": [
+      237,
+      96
+    ]
+  },
+  {
+    "file": "21-02.png",
+    "group": "SWITCHES",
+    "layer": "Layer 64",
+    "bbox": [
+      2369,
+      786,
+      2606,
+      883
+    ],
+    "size": [
+      237,
+      97
+    ]
+  },
+  {
+    "file": "21-03.png",
+    "group": "SWITCHES",
+    "layer": "Layer 65",
+    "bbox": [
+      2621,
+      786,
+      2858,
+      883
+    ],
+    "size": [
+      237,
+      97
+    ]
+  },
+  {
+    "file": "21-04.png",
+    "group": "SWITCHES",
+    "layer": "Layer 115",
+    "bbox": [
+      1359,
+      788,
+      1596,
+      884
+    ],
+    "size": [
+      237,
+      96
+    ]
+  },
+  {
+    "file": "21-05.png",
+    "group": "SWITCHES",
+    "layer": "Layer 116",
+    "bbox": [
+      1608,
+      788,
+      1845,
+      884
+    ],
+    "size": [
+      237,
+      96
+    ]
+  },
+  {
+    "file": "22-00.png",
+    "group": "SPEECH BUBBLE",
+    "layer": "Layer 66",
+    "bbox": [
+      344,
+      1474,
+      868,
+      1693
+    ],
+    "size": [
+      524,
+      219
+    ]
+  },
+  {
+    "file": "22-01.png",
+    "group": "SPEECH BUBBLE",
+    "layer": "Layer 67",
+    "bbox": [
+      914,
+      1474,
+      1438,
+      1693
+    ],
+    "size": [
+      524,
+      219
+    ]
+  },
+  {
+    "file": "23-00.png",
+    "group": "LIGIHTS",
+    "layer": "Layer 69",
+    "bbox": [
+      295,
+      2332,
+      419,
+      2457
+    ],
+    "size": [
+      124,
+      125
+    ]
+  },
+  {
+    "file": "23-01.png",
+    "group": "LIGIHTS",
+    "layer": "Layer 70",
+    "bbox": [
+      440,
+      2332,
+      564,
+      2457
+    ],
+    "size": [
+      124,
+      125
+    ]
+  },
+  {
+    "file": "23-02.png",
+    "group": "LIGIHTS",
+    "layer": "Layer 71",
+    "bbox": [
+      585,
+      2332,
+      709,
+      2457
+    ],
+    "size": [
+      124,
+      125
+    ]
+  },
+  {
+    "file": "23-03.png",
+    "group": "LIGIHTS",
+    "layer": "Layer 72",
+    "bbox": [
+      369,
+      2473,
+      493,
+      2598
+    ],
+    "size": [
+      124,
+      125
+    ]
+  },
+  {
+    "file": "23-04.png",
+    "group": "LIGIHTS",
+    "layer": "Layer 73",
+    "bbox": [
+      514,
+      2473,
+      638,
+      2598
+    ],
+    "size": [
+      124,
+      125
+    ]
+  },
+  {
+    "file": "24-00.png",
+    "group": "CHECKBOX",
+    "layer": "Layer 74",
+    "bbox": [
+      2208,
+      323,
+      2299,
+      421
+    ],
+    "size": [
+      91,
+      98
+    ]
+  },
+  {
+    "file": "24-01.png",
+    "group": "CHECKBOX",
+    "layer": "Layer 75",
+    "bbox": [
+      2318,
+      323,
+      2409,
+      421
+    ],
+    "size": [
+      91,
+      98
+    ]
+  },
+  {
+    "file": "24-02.png",
+    "group": "CHECKBOX",
+    "layer": "Layer 119",
+    "bbox": [
+      2444,
+      324,
+      2627,
+      421
+    ],
+    "size": [
+      183,
+      97
+    ]
+  },
+  {
+    "file": "24-03.png",
+    "group": "CHECKBOX",
+    "layer": "Layer 120",
+    "bbox": [
+      2550,
+      324,
+      2640,
+      421
+    ],
+    "size": [
+      90,
+      97
+    ]
+  },
+  {
+    "file": "25-00.png",
+    "group": "JOYSTICK",
+    "layer": "Layer 76",
+    "bbox": [
+      2436,
+      1496,
+      2557,
+      1616
+    ],
+    "size": [
+      121,
+      120
+    ]
+  },
+  {
+    "file": "25-01.png",
+    "group": "JOYSTICK",
+    "layer": "Layer 77",
+    "bbox": [
+      2567,
+      1496,
+      2689,
+      1616
+    ],
+    "size": [
+      122,
+      120
+    ]
+  },
+  {
+    "file": "25-02.png",
+    "group": "JOYSTICK",
+    "layer": "Layer 78",
+    "bbox": [
+      2699,
+      1495,
+      2821,
+      1616
+    ],
+    "size": [
+      122,
+      121
+    ]
+  },
+  {
+    "file": "25-03.png",
+    "group": "JOYSTICK",
+    "layer": "Layer 79",
+    "bbox": [
+      2436,
+      1633,
+      2557,
+      1754
+    ],
+    "size": [
+      121,
+      121
+    ]
+  },
+  {
+    "file": "25-04.png",
+    "group": "JOYSTICK",
+    "layer": "Layer 80",
+    "bbox": [
+      2569,
+      1633,
+      2690,
+      1754
+    ],
+    "size": [
+      121,
+      121
+    ]
+  },
+  {
+    "file": "25-05.png",
+    "group": "JOYSTICK",
+    "layer": "Layer 81",
+    "bbox": [
+      2701,
+      1633,
+      2823,
+      1754
+    ],
+    "size": [
+      122,
+      121
+    ]
+  },
+  {
+    "file": "26-00.png",
+    "group": "SIMPLE ARROW",
+    "layer": "Layer 82",
+    "bbox": [
+      2214,
+      182,
+      2274,
+      266
+    ],
+    "size": [
+      60,
+      84
+    ]
+  },
+  {
+    "file": "26-01.png",
+    "group": "SIMPLE ARROW",
+    "layer": "Layer 83",
+    "bbox": [
+      2294,
+      182,
+      2354,
+      266
+    ],
+    "size": [
+      60,
+      84
+    ]
+  },
+  {
+    "file": "26-02.png",
+    "group": "SIMPLE ARROW",
+    "layer": "Layer 84",
+    "bbox": [
+      2375,
+      198,
+      2460,
+      259
+    ],
+    "size": [
+      85,
+      61
+    ]
+  },
+  {
+    "file": "26-03.png",
+    "group": "SIMPLE ARROW",
+    "layer": "Layer 85",
+    "bbox": [
+      2456,
+      189,
+      2541,
+      250
+    ],
+    "size": [
+      85,
+      61
+    ]
+  },
+  {
+    "file": "27-00.png",
+    "group": "POINTER",
+    "layer": "Layer 86",
+    "bbox": [
+      2095,
+      331,
+      2165,
+      400
+    ],
+    "size": [
+      70,
+      69
+    ]
+  },
+  {
+    "file": "28-00.png",
+    "group": "REPLAY",
+    "layer": "Ellipse 1",
+    "bbox": [
+      2661,
+      338,
+      2724,
+      394
+    ],
+    "size": [
+      63,
+      56
+    ]
+  },
+  {
+    "file": "29-00.png",
+    "group": "BAR BGS",
+    "layer": "Layer 122",
+    "bbox": [
+      108,
+      296,
+      1224,
+      359
+    ],
+    "size": [
+      1116,
+      63
+    ]
+  },
+  {
+    "file": "29-01.png",
+    "group": "BAR BGS",
+    "layer": "Layer 3",
+    "bbox": [
+      114,
+      477,
+      562,
+      525
+    ],
+    "size": [
+      448,
+      48
+    ]
+  },
+  {
+    "file": "29-02.png",
+    "group": "BAR BGS",
+    "layer": "Layer 7",
+    "bbox": [
+      113,
+      390,
+      655,
+      437
+    ],
+    "size": [
+      542,
+      47
+    ]
+  },
+  {
+    "file": "29-03.png",
+    "group": "BAR BGS",
+    "layer": "Layer 8",
+    "bbox": [
+      715,
+      387,
+      1257,
+      439
+    ],
+    "size": [
+      542,
+      52
+    ]
+  },
+  {
+    "file": "29-04.png",
+    "group": "BAR BGS",
+    "layer": "Layer 68",
+    "bbox": [
+      711,
+      473,
+      1284,
+      520
+    ],
+    "size": [
+      573,
+      47
+    ]
+  },
+  {
+    "file": "29-05.png",
+    "group": "BAR BGS",
+    "layer": "Layer 87",
+    "bbox": [
+      117,
+      550,
+      302,
+      594
+    ],
+    "size": [
+      185,
+      44
+    ]
+  },
+  {
+    "file": "29-06.png",
+    "group": "BAR BGS",
+    "layer": "Layer 88",
+    "bbox": [
+      718,
+      550,
+      952,
+      579
+    ],
+    "size": [
+      234,
+      29
+    ]
+  },
+  {
+    "file": "29-07.png",
+    "group": "BAR BGS",
+    "layer": "Layer 2",
+    "bbox": [
+      103,
+      179,
+      566,
+      262
+    ],
+    "size": [
+      463,
+      83
+    ]
+  },
+  {
+    "file": "29-08.png",
+    "group": "BAR BGS",
+    "layer": "Layer 89",
+    "bbox": [
+      698,
+      199,
+      963,
+      242
+    ],
+    "size": [
+      265,
+      43
+    ]
+  },
+  {
+    "file": "30-00.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1",
+    "bbox": [
+      120,
+      770,
+      312,
+      802
+    ],
+    "size": [
+      192,
+      32
+    ]
+  },
+  {
+    "file": "30-01.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 5",
+    "bbox": [
+      721,
+      667,
+      871,
+      702
+    ],
+    "size": [
+      150,
+      35
+    ]
+  },
+  {
+    "file": "30-02.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 6",
+    "bbox": [
+      720,
+      714,
+      906,
+      744
+    ],
+    "size": [
+      186,
+      30
+    ]
+  },
+  {
+    "file": "30-03.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 9",
+    "bbox": [
+      118,
+      705,
+      396,
+      749
+    ],
+    "size": [
+      278,
+      44
+    ]
+  },
+  {
+    "file": "30-04.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 2",
+    "bbox": [
+      121,
+      862,
+      234,
+      881
+    ],
+    "size": [
+      113,
+      19
+    ]
+  },
+  {
+    "file": "30-05.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 4",
+    "bbox": [
+      723,
+      759,
+      836,
+      777
+    ],
+    "size": [
+      113,
+      18
+    ]
+  },
+  {
+    "file": "30-06.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 3",
+    "bbox": [
+      147,
+      884,
+      224,
+      897
+    ],
+    "size": [
+      77,
+      13
+    ]
+  },
+  {
+    "file": "30-07.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy",
+    "bbox": [
+      120,
+      815,
+      471,
+      849
+    ],
+    "size": [
+      351,
+      34
+    ]
+  },
+  {
+    "file": "30-08.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 7",
+    "bbox": [
+      717,
+      620,
+      883,
+      646
+    ],
+    "size": [
+      166,
+      26
+    ]
+  },
+  {
+    "file": "30-09.png",
+    "group": "PROGRESS BARS",
+    "layer": "Rounded Rectangle 1 copy 8",
+    "bbox": [
+      116,
+      622,
+      391,
+      677
+    ],
+    "size": [
+      275,
+      55
+    ]
+  },
+  {
+    "file": "31-00.png",
+    "group": "RESOURCE BGS",
+    "layer": "Layer 112",
+    "bbox": [
+      937,
+      914,
+      1110,
+      975
+    ],
+    "size": [
+      173,
+      61
+    ]
+  },
+  {
+    "file": "31-01.png",
+    "group": "RESOURCE BGS",
+    "layer": "Layer 22",
+    "bbox": [
+      110,
+      921,
+      547,
+      982
+    ],
+    "size": [
+      437,
+      61
+    ]
+  },
+  {
+    "file": "31-02.png",
+    "group": "RESOURCE BGS",
+    "layer": "Layer 23",
+    "bbox": [
+      635,
+      918,
+      898,
+      979
+    ],
+    "size": [
+      263,
+      61
+    ]
+  },
+  {
+    "file": "31-03.png",
+    "group": "RESOURCE BGS",
+    "layer": "Layer 24",
+    "bbox": [
+      1142,
+      919,
+      1192,
+      971
+    ],
+    "size": [
+      50,
+      52
+    ]
+  },
+  {
+    "file": "32-00.png",
+    "group": "SIDE TABS",
+    "layer": "Layer 90",
+    "bbox": [
+      103,
+      1432,
+      294,
+      1574
+    ],
+    "size": [
+      191,
+      142
+    ]
+  },
+  {
+    "file": "32-01.png",
+    "group": "SIDE TABS",
+    "layer": "Layer 91",
+    "bbox": [
+      103,
+      1601,
+      294,
+      1744
+    ],
+    "size": [
+      191,
+      143
+    ]
+  },
+  {
+    "file": "32-02.png",
+    "group": "SIDE TABS",
+    "layer": "Layer 92",
+    "bbox": [
+      103,
+      1771,
+      294,
+      1914
+    ],
+    "size": [
+      191,
+      143
+    ]
+  },
+  {
+    "file": "33-00.png",
+    "group": "SKEW BUTTON",
+    "layer": "Layer 93",
+    "bbox": [
+      1056,
+      2413,
+      1377,
+      2518
+    ],
+    "size": [
+      321,
+      105
+    ]
+  },
+  {
+    "file": "33-01.png",
+    "group": "SKEW BUTTON",
+    "layer": "Layer 94",
+    "bbox": [
+      1405,
+      2409,
+      1661,
+      2520
+    ],
+    "size": [
+      256,
+      111
+    ]
+  },
+  {
+    "file": "34-00.png",
+    "group": "WINDOW",
+    "layer": "Layer 95",
+    "bbox": [
+      110,
+      1024,
+      501,
+      1253
+    ],
+    "size": [
+      391,
+      229
+    ]
+  },
+  {
+    "file": "34-01.png",
+    "group": "WINDOW",
+    "layer": "Layer 96",
+    "bbox": [
+      555,
+      1024,
+      945,
+      1252
+    ],
+    "size": [
+      390,
+      228
+    ]
+  },
+  {
+    "file": "34-02.png",
+    "group": "WINDOW",
+    "layer": "Layer 97",
+    "bbox": [
+      1001,
+      1025,
+      1392,
+      1253
+    ],
+    "size": [
+      391,
+      228
+    ]
+  },
+  {
+    "file": "35-00.png",
+    "group": "BANNER",
+    "layer": "Layer 98",
+    "bbox": [
+      2152,
+      1122,
+      2897,
+      1255
+    ],
+    "size": [
+      745,
+      133
+    ]
+  },
+  {
+    "file": "35-02.png",
+    "group": "BANNER",
+    "layer": "Layer 99",
+    "bbox": [
+      2310,
+      1323,
+      2885,
+      1449
+    ],
+    "size": [
+      575,
+      126
+    ]
+  },
+  {
+    "file": "36-00.png",
+    "group": "BANNER CURVED",
+    "layer": "Layer 131",
+    "bbox": [
+      1744,
+      1977,
+      2701,
+      2571
+    ],
+    "size": [
+      957,
+      594
+    ]
+  },
+  {
+    "file": "36-01.png",
+    "group": "BANNER CURVED",
+    "layer": "Layer 134",
+    "bbox": [
+      1744,
+      2440,
+      2701,
+      2571
+    ],
+    "size": [
+      957,
+      131
+    ]
+  },
+  {
+    "file": "36-02.png",
+    "group": "BANNER CURVED",
+    "layer": "Layer 133",
+    "bbox": [
+      1749,
+      2316,
+      2686,
+      2447
+    ],
+    "size": [
+      937,
+      131
+    ]
+  },
+  {
+    "file": "36-03.png",
+    "group": "BANNER CURVED",
+    "layer": "Layer 132",
+    "bbox": [
+      1847,
+      1977,
+      2589,
+      2113
+    ],
+    "size": [
+      742,
+      136
+    ]
+  },
+  {
+    "file": "37-00.png",
+    "group": "DIGITAL NUM DISPLAY",
+    "layer": "Layer 100",
+    "bbox": [
+      2479,
+      958,
+      2698,
+      1061
+    ],
+    "size": [
+      219,
+      103
+    ]
+  },
+  {
+    "file": "37-01.png",
+    "group": "DIGITAL NUM DISPLAY",
+    "layer": "Layer 101",
+    "bbox": [
+      2717,
+      972,
+      2840,
+      1040
+    ],
+    "size": [
+      123,
+      68
+    ]
+  },
+  {
+    "file": "38-00.png",
+    "group": "BOTTOM TABS",
+    "layer": "Layer 104",
+    "bbox": [
+      492,
+      1725,
+      728,
+      1914
+    ],
+    "size": [
+      236,
+      189
+    ]
+  },
+  {
+    "file": "38-01.png",
+    "group": "BOTTOM TABS",
+    "layer": "Layer 105",
+    "bbox": [
+      751,
+      1725,
+      987,
+      1914
+    ],
+    "size": [
+      236,
+      189
+    ]
+  },
+  {
+    "file": "38-02.png",
+    "group": "BOTTOM TABS",
+    "layer": "Layer 106",
+    "bbox": [
+      1009,
+      1725,
+      1245,
+      1914
+    ],
+    "size": [
+      236,
+      189
+    ]
+  },
+  {
+    "file": "38-03.png",
+    "group": "BOTTOM TABS",
+    "layer": "Layer 107",
+    "bbox": [
+      1490,
+      1725,
+      1726,
+      1914
+    ],
+    "size": [
+      236,
+      189
+    ]
+  },
+  {
+    "file": "38-04.png",
+    "group": "BOTTOM TABS",
+    "layer": "Layer 108",
+    "bbox": [
+      1749,
+      1725,
+      1985,
+      1914
+    ],
+    "size": [
+      236,
+      189
+    ]
+  },
+  {
+    "file": "38-05.png",
+    "group": "BOTTOM TABS",
+    "layer": "Layer 109",
+    "bbox": [
+      2008,
+      1725,
+      2244,
+      1914
+    ],
+    "size": [
+      236,
+      189
+    ]
+  },
+  {
+    "file": "39-00.png",
+    "group": "DEFEAT",
+    "layer": "Layer 130",
+    "bbox": [
+      937,
+      1942,
+      1747,
+      2316
+    ],
+    "size": [
+      810,
+      374
+    ]
+  },
+  {
+    "file": "40-00.png",
+    "group": "VICTORY",
+    "layer": "Layer 103",
+    "bbox": [
+      466,
+      1992,
+      1257,
+      2387
+    ],
+    "size": [
+      791,
+      395
+    ]
+  },
+  {
+    "file": "40-01.png",
+    "group": "VICTORY",
+    "layer": "Layer 129",
+    "bbox": [
+      99,
+      1992,
+      884,
+      2271
+    ],
+    "size": [
+      785,
+      279
+    ]
+  },
+  {
+    "file": "40-03.png",
+    "group": "VICTORY",
+    "layer": "Layer 125",
+    "bbox": [
+      414,
+      1921,
+      680,
+      2274
+    ],
+    "size": [
+      266,
+      353
+    ]
+  }
+]
