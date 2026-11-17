@@ -1,24 +1,13 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
+import {database} from './d1.ts';
 import {DatabaseSync} from 'node:sqlite';
-import {readFileSync,readdirSync} from 'node:fs';
+import {readFileSync} from 'node:fs';
 import {advance,actualSpeed,initialState,nitroMultiplier,step,trackObject,TRACK_CONFIG,roadPosition,roadCurve,roadCenterOffset,trackBounds,objectContact,speedZoom} from '../lib/race-sim.ts';
 import {gameAction,roomSnapshot,roundResult,ONLINE_WINDOW_MS} from '../lib/race-service.ts';
 import {formatDistance,resultsCsv} from '../lib/race-ranking.ts';
 import {acceptReadiness,releasedControl,restoredControl,sampleControl,requestGame} from '../lib/race-client.ts';
 
-function database(){
-  const sql=new DatabaseSync(':memory:');
-  const migrations=new URL('../drizzle/',import.meta.url);
-  for(const file of readdirSync(migrations).filter(name=>name.endsWith('.sql')).sort())sql.exec(readFileSync(new URL(file,migrations),'utf8'));
-  function prepare(query:string){let args:unknown[]=[];
-    return {bind(...values:unknown[]){args=values;return this;},
-      async first(){return sql.prepare(query).get(...args as any[])||null;},
-      async all(){return {results:sql.prepare(query).all(...args as any[])};},
-      async run(){const r=sql.prepare(query).run(...args as any[]);return {meta:{changes:Number(r.changes)}};}};
-  }
-  return {prepare,async batch(statements:any[]){const out=[];for(const s of statements)out.push(await s.run());return out;}} as unknown as D1Database;
-}
 test('idle cruise reaches 30; held acceleration reaches 120 in eight seconds; release returns to 30',()=>{
   const idle=initialState();idle.nextObject=10000;advance(idle,120,[],1);assert.equal(idle.base,30);
   const s=initialState();s.nextObject=10000;

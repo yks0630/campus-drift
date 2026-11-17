@@ -108,7 +108,7 @@ export async function roundResult(db:D1Database,code:string,round:number,now=Dat
   return {room:{code:room.code,round:saved.round,seed:saved.seed,startAt:saved.start_at,endAt:saved.start_at+60000,
     settleAt:saved.finished_at,serverNow:now,phase:'finished'},players,count:saved.participant_count,participantCount:saved.participant_count};
 }
-export async function gameAction(db:D1Database,b:Record<string,unknown>,now=Date.now()){
+export async function gameAction(db:D1Database,b:Record<string,unknown>,now=Date.now(),access?:{admin:boolean}){
   if(b.action==='create'){
     const hostToken=secret(),hostHash=await hash(hostToken);
     for(let retry=0;retry<5;retry++){
@@ -122,7 +122,7 @@ export async function gameAction(db:D1Database,b:Record<string,unknown>,now=Date
   }
   const room=await getRoom(db,b.code);
   if(b.action==='remove'){
-    await authorize(room,b.hostToken);
+    if(!access?.admin)await authorize(room,b.hostToken);
     if(room.start_at!==null)throw new GameError('请在下一局准备时移除车手，比赛成绩会保留。',409);
     const changed=await db.prepare(`UPDATE race_players SET membership='removed',ready=0,ready_version=ready_version+1
       WHERE id=? AND room=? AND membership='active'
@@ -132,7 +132,7 @@ export async function gameAction(db:D1Database,b:Record<string,unknown>,now=Date
     return {...await counts(db,room,now),room:publicRoom(room,now)};
   }
   if(b.action==='start'||b.action==='reset'){
-    await authorize(room,b.hostToken);
+    if(!access?.admin)await authorize(room,b.hostToken);
     if(b.action==='start'){
       if(room.start_at!==null)throw new GameError('这一局已经开始。');
       const current=await counts(db,room,now);

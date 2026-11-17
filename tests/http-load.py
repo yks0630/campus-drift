@@ -2,6 +2,7 @@
 import concurrent.futures
 import json
 import math
+import os
 import statistics
 import time
 import urllib.error
@@ -9,6 +10,8 @@ import urllib.request
 from pathlib import Path
 
 BASE = 'http://127.0.0.1:5173/api/game'
+admin_cookie = ''
+HOST_ACTIONS = {'login', 'create', 'start', 'reset', 'remove', 'logout'}
 latencies = []
 errors = []
 transient_resume_retries = []
@@ -16,13 +19,18 @@ opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
 
 def post(data):
+    global admin_cookie
     started = time.perf_counter()
-    req = urllib.request.Request(BASE, data=json.dumps(data).encode(),
-        headers={'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:5173'})
+    endpoint = BASE.replace('/api/game', '/api/admin') if data['action'] in HOST_ACTIONS else BASE
+    req = urllib.request.Request(endpoint, data=json.dumps(data).encode(),
+        headers={'Content-Type': 'application/json', 'Origin': 'http://127.0.0.1:5173',
+                 **({'Cookie': admin_cookie} if endpoint.endswith('/api/admin') else {})})
     for attempt in range(3):
         try:
             with opener.open(req, timeout=8) as response:
                 value = json.load(response)
+                if data['action'] == 'login':
+                    admin_cookie = response.headers['Set-Cookie'].split(';')[0]
             break
         except urllib.error.HTTPError as error:
             body = error.read().decode()
@@ -39,6 +47,9 @@ def post(data):
     return value
 
 
+if not os.environ.get('RACE_ADMIN_PASSWORD'):
+    raise SystemExit('Set RACE_ADMIN_PASSWORD to run the authenticated local HTTP test.')
+post({'action': 'login', 'password': os.environ['RACE_ADMIN_PASSWORD']})
 created = post({'action': 'create'})
 code = created['room']['code']
 with concurrent.futures.ThreadPoolExecutor(max_workers=100) as pool:
@@ -58,7 +69,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=100) as pool:
         raise AssertionError('Stale readiness version was accepted')
     except urllib.error.HTTPError as e:
         assert e.code == 409
-    room = post({'action': 'start', 'code': code, 'hostToken': created['hostToken']})['room']
+    room = post({'action': 'start', 'code': code})['room']
     at = room['startAt']
     print(json.dumps({'status': 'started', 'players': len(players), 'room': code}), flush=True)
     while time.time() * 1000 < at:
@@ -91,7 +102,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=100) as pool:
         archived = json.load(response)
     assert archived['players'] == [{k: v for k, v in p.items() if k not in ('updated_at', 'membership')}
         | {'connected': False, 'ready': False, 'speed': 0, 'nitro': False} for p in final['players']]
-    post({'action': 'reset', 'code': code, 'hostToken': created['hostToken']})
+    post({'action': 'reset', 'code': code})
     with opener.open(BASE + '?code=' + code + '&round=1', timeout=8) as response:
         assert json.load(response)['players'] == archived['players']
     with opener.open(BASE + '?code=' + code, timeout=8) as response:
