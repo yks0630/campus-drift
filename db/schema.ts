@@ -24,6 +24,7 @@ export const results = sqliteTable('race_results', {
   participantCount: integer('participant_count').notNull(), players: text('players').notNull(),
 }, (t) => [primaryKey({columns:[t.room,t.round]})]);
 
+// Legacy login tables are retained for migration compatibility; the passwordless backend does not use them.
 export const adminSessions = sqliteTable('race_admin_sessions', {
   tokenHash: text('token_hash').primaryKey(), passwordHash: text('password_hash').notNull(),
   expiresAt: integer('expires_at').notNull(),
